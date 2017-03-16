@@ -6,10 +6,18 @@
 <description>High Tide Predictions for Saint John, NB - 2017</description>
   <item>
     <title>Hight Tide</title>
-    <link>Link to the entry</link>
-    <guid>http://example.com/item/123</guid>
-    <pubDate>Sat, 9 Jan 2010 16:23:41 GMT</pubDate>
-    <description>[CDATA[ This is the description. ]]</description>
+    <link></link>
+    <description>01:28 01 Jan 2017</description>
+  </item>
+    <item>
+    <title>Hight Tide</title>
+    <link></link>
+    <description>13:42 01 Jan 2017</description>
+  </item>
+    <item>
+    <title>Hight Tide</title>
+    <link></link>
+    <description>02:07 02 Jan 2017</description>
   </item>
 </channel>
 </rss>
