@@ -1,0 +1,32 @@
+Sub make_xml()
+
+    Dim i As Integer
+    Dim xmlFile
+    xmlFile = "C:\path\to\xmlfile\hightides_2017.xml"
+    
+'Provisions for deleting the file, It turned out to be unnecessary
+
+'    If Len(Dir$(xmlFile)) > 0 Then
+'     Kill xmlFile
+'End If
+ 
+    Open xmlFile For Output As #1
+        Print #1, "<?xml version=""1.0"" encoding=""UTF-8"" ?>"
+        Print #1, "<rss version=""2.0"">"
+        Print #1, "  <channel>"
+        Print #1, "    <title>High Tides 2017 RSS Feed</title>"
+        Print #1, "    <link>http://www.jordanhopkins.ca/</link>"
+        Print #1, "    <description>High Tide Predictions for Saint John, NB - 2017</description>"
+
+For i = 2 To 4
+        Print #1, "    <item>"
+        Print #1, "     <title>Hight Tide</title>"
+        Print #1, "     <description>" & Cells(i, 3).Text & "</description>"
+        Print #1, "    </item>"
+Next i
+ 
+        Print #1, "  </channel>"
+        Print #1, "</rss>"
+    Close #1
+
+End Sub
