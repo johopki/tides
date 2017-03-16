@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>High Tides 2017 RSS Feed</title>
+<link>http://www.jordanhopkins.ca/</link>
+<description>High Tide Predictions for Saint John, NB - 2017</description>
+  <item>
+    <title>Hight Tide</title>
+    <link></link>
+    <description>01:28 01 Jan 2017</description>
+  </item>
+    <item>
+    <title>Hight Tide</title>
+    <link></link>
+    <description>13:42 01 Jan 2017</description>
+  </item>
+    <item>
+    <title>Hight Tide</title>
+    <link></link>
+    <description>02:07 02 Jan 2017</description>
+  </item>
+</channel>
+</rss>
